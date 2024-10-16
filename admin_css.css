@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(228, 228, 255);
+}
+li
+{
+    font-size: 25px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 0% !important;
+}
+.navbar-item
+{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    padding: 0% !important;
+}
+.navbar
+{
+    
+    /* backdrop-filter: blur(10px); */
+    background-color: #F6995C; 
+    /* background-color: #4472c4; */
+    z-index: 999;
+    padding-bottom: 0;
+    padding: 0% !important;
+
+}
+.navbar-item :hover
+{
+    color: rgb(0, 0, 0);
+    background-color: #ECB159;
+}
+
+#logo
+{
+    width: 7%;
+    height: auto;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+
+.navbar-brand
+{
+    font-size: 40px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    padding: 0% !important;
+}
+
+.bg-1
+{
+    margin-top: 10%;
+}

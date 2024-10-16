@@ -1,0 +1,388 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    font-size: 25px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 0% !important;
+}
+.navbar-item
+{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    padding: 0% !important;
+}
+.navbar
+{
+    
+    /* backdrop-filter: blur(10px); */
+    background-color: #F6995C; 
+    /* background-color: #4472c4; */
+    z-index: 999;
+    padding-bottom: 0;
+    padding: 0% !important;
+
+}
+.navbar-item :hover
+{
+    color: rgb(0, 0, 0);
+    background-color: #ECB159;
+}
+
+#logo
+{
+    width: 7%;
+    height: auto;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+
+.navbar-brand
+{
+    font-size: 40px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    padding: 0% !important;
+}
+
+.bg1
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #d1d1ff;
+}
+
+.parea
+{
+    position: absolute;
+    width: 80%;
+    height: 85%;
+    background-color: rgb(29, 0, 125);
+    top: 12%;
+    left: 11%;
+    border-radius: 20px;
+    box-shadow: 6px 5px 8px 0px black;
+
+}
+
+.content-frame
+{
+    position: relative;
+    /* background-color: #d1d1ff; */
+    height: 100%;
+    margin-left: 5%;
+    overflow: hidden;
+    display: table;
+    width: 20%;
+    /* background-color: aliceblue; */
+}
+
+.content-frame ul
+{
+     margin-top: 30%;
+}
+.content-frame ul li
+{
+    font-size: 25px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration: none;
+    padding: 0% !important;
+    line-height: 100px;
+   
+    
+}
+.content-frame .navbar-item .nav-link
+{
+    color: #d1d1ff;
+    opacity: 1;
+}
+
+.content-frame .navbar-item :hover
+{
+    color: #ffffff;
+    opacity: 1;
+    background-color: transparent;
+}
+
+.pfp /*murasaki*/
+{
+    position: absolute;
+    /* background-color: #4a4ab3; */
+    background-color: rgb(29, 0, 125);
+    height: 100%;
+    z-index: 12;
+    left: 29.9%;
+    justify-content: center;
+}
+.epf /*midori*/
+{
+    position: absolute;
+    /* background-color: #5fff65; */
+    background-color: rgb(29, 0, 125);
+    height: 100%;
+    z-index: 11;
+    justify-content: center;
+    left: 29.9%;
+}
+
+.yls /*sora*/
+{
+    position: absolute;
+    /* background-color: #00b7ff; */
+    background-color: rgb(29, 0, 125);
+    height: 100%;
+    z-index: 10;
+    justify-content: center;
+    left: 29.9%;
+    
+}
+.yrv /*momo*/
+{
+    position: absolute;
+    /* background-color: #ff00d9; */
+    background-color: rgb(29, 0, 125);
+    height: 100%;
+    z-index: 9;
+    justify-content: center;
+    left: 29.9%;
+}
+.rbg /*akai*/
+{
+    position: absolute;
+    /* background-color: #ff5f5f; */
+    background-color: rgb(29, 0, 125);
+    height: 100%;
+    z-index: 8;
+    justify-content: center;
+    left: 29.9%;
+}
+
+
+
+
+
+
+
+.epf img
+{
+    position: relative;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    
+    /* left: 50%; */
+    top: 5%;
+}
+
+
+.pfp img
+{
+    position: relative;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    
+    /* left: 50%; */
+    top: 5%;
+}
+
+.text-div
+{
+    position: relative;
+    /* background-color: #d1d1ff; */
+    width: 100%;
+    height: 10%;
+    margin-top: 5%;
+    color: #ffffff;
+    /* left: 5%; */
+}
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.text-div2
+{
+    /* display: flex; */
+    /* grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto; */
+    position: relative;
+    /* background-color: #d1d1ff; */
+    width: 100%;
+    height: 55%;
+    overflow-y: hidden;
+    row-gap: 30px;
+    color: #ffffff;
+}
+.text-div3
+{
+    /* display: flex; */
+    /* grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto; */
+    position: relative;
+    /* background-color: #d1d1ff; */
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    row-gap: 50px;
+    color: #ffffff;
+}
+.text-div3 .row
+{
+    row-gap: 50px;
+}
+.text-div4
+{
+    /* display: flex; */
+    /* grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto; */
+    position: relative;
+    /* background-color: #d1d1ff; */
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+    row-gap: 30px;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+
+
+.lined
+{
+    background-color: #d1d1ff;
+    width: 2px;
+}
+
+.hidden
+{
+    visibility: hidden;
+    z-index: 8;
+}
+
+.vis
+{
+    visibility: visible;
+    z-index: 11;
+}
+
+.table
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.changeprof :hover
+{
+    background-color: #fff;
+}
+
+
+.card2 {
+	width: 175px;
+	height: 225px;
+	background: #fff;
+	display: flex;
+	align-items: flex-end;
+	padding: 2rem 1rem;
+	position: relative;
+	transition: 0.5s all ease-in-out;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.card2:hover {
+	transform: translateY(-10px);
+    z-index: 20;
+}
+.card2::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(13, 36, 63, 0.3), rgba(13, 36, 63, 1));
+	z-index: 2;
+	opacity: 0;
+	transition: 0.5s all;
+    border-radius: 20px;
+    
+}
+.card2:hover::before {
+	opacity: 1;
+}
+
+.card2 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+    border-radius: 20px;
+}
+.card2 .info {
+	position: relative;
+	color: #fff;
+	z-index: 3;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: 0.5s all;
+}
+.card2:hover .info {
+	opacity: 1;
+	transform: translateY(0);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card2 .info h1 {
+	line-height: 40px;
+	margin-bottom: 10px;
+    z-index: 10;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.card2 .info p {
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.card2 .info .btn {
+	background: #fff;
+	padding: 0.5rem 1rem;
+	color: #000;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: .4s ease-in-out;
+}
+.card2.info .btn:hover {
+	background: #fc5185;
+	color: #fff;
+	box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+	display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr ;
+	justify-content: space-between;
+    gap: 2rem;
+}
